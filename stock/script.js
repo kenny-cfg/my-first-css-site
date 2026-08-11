@@ -1,0 +1,1 @@
+console.log('STOCK JS');
