@@ -4,7 +4,7 @@
   font-size: xx-large;
 }
 
-#link-to-interactive {
+#link-to-interactive, #link-to-stock {
   color: black;
   background-color: white;
 }
