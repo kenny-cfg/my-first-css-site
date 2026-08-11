@@ -13,6 +13,12 @@ const setMessage = (message) => {
   messageElement.style.color = "yellow";
 }
 
+function setMessageOLD(message) {
+  messageElement.textContent = message;
+  messageElement.style.backgroundColor = "red";
+  messageElement.style.color = "yellow";
+}
+
 stockButton.addEventListener("click", () => {
   if (stock > 0) {
     stock--;
