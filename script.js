@@ -1,4 +1,4 @@
-console.log('I am running');
+console.log("I am running");
 
 const firstParagraph = document.getElementById("first-paragraph");
 

@@ -4,6 +4,11 @@
   font-size: xx-large;
 }
 
+#link-to-interactive {
+  color: black;
+  background-color: white;
+}
+
 h1 {
   background-color: red;
 }
