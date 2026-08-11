@@ -11,3 +11,18 @@ function buttonClicked() {
 }
 
 updateCounterElement();
+
+let counterJsSeparate = 0;
+let counterJsSeparateButton = document.getElementById("counter-button-js-separate");
+let counterJsElement = document.getElementById("counter-js-separate");
+
+function updateCounterJsSeparateElement() {
+  counterJsElement.textContent = `Count is ${counterJsSeparate}`;
+}
+
+counterJsSeparateButton.addEventListener("click", () => {
+  counterJsSeparate++;
+  updateCounterJsSeparateElement();
+})
+
+updateCounterJsSeparateElement();
